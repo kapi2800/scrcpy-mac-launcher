@@ -20,7 +20,7 @@ struct ContentView: View {
         do {
             try task.run()
         } catch {
-            print("❌ Failed to launch scrcpy: \(error)")
+            print("Failed to launch scrcpy: \(error)")
         }
     }
 }
