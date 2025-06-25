@@ -14,8 +14,8 @@ struct ContentView: View {
 
     func launchScrcpy() {
         let task = Process()
-        task.executableURL = URL(fileURLWithPath: "/Users/kapilkumar/Downloads/scrcpy-macos-aarch64-v3.3.1/scrcpy")
-        task.arguments = [] // Add any desired args here
+        task.executableURL = URL(fileURLWithPath: "/Users/location/scrcpy") //Enter the Path for scrcpy
+        task.arguments = [] 
 
         do {
             try task.run()
