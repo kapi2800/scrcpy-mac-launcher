@@ -14,3 +14,7 @@ build/
 
 # SwiftPM
 .build/
+
+*.xcuserstate
+*.xcuserdata
+*.swp
