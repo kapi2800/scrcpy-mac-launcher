@@ -29,3 +29,8 @@ I use scrcpy a lot, but on macOS there’s no simple UI app — only terminal. S
 ---
 
 This is still a work-in-progress. Contributions and suggestions are welcome!
+
+
+## Demo
+
+![Demo](./demo.gif)
